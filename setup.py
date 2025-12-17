@@ -24,6 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'hospibot_led_node = hospibot_led.hospibot_led_node:main',
         ],
     },
 )
